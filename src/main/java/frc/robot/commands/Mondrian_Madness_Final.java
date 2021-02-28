@@ -22,14 +22,14 @@ public class Mondrian_Madness_Final extends SequentialCommandGroup {
    */
   public Mondrian_Madness_Final(Drivetrain drivetrain) {
     addCommands(
-      straight(0.6, 2, drivetrain));
-      // straight(0.58, 0.46, drivetrain),
-      // turn(0.645, 0.8, 1.12, drivetrain),
-      // turn(0.405, 0.7, 0.93, drivetrain),
-      // straight(0.75, 0.8, drivetrain),
-      // turn(0.75, 0.4, 0.75, drivetrain));
-      // turn(0.76, 0.61, 1.1, drivetrain),
-      // straight(0.75, 0.3, drivetrain));
+      straight(0.6, 2, drivetrain),
+      straight(0.58, 0.46, drivetrain),
+      turn(0.645, 0.8, 1.12, drivetrain),
+      turn(0.405, 0.7, 0.93, drivetrain),
+      straight(0.75, 0.8, drivetrain),
+      turn(0.75, 0.4, 0.75, drivetrain),
+      turn(0.76, 0.61, 1.1, drivetrain),
+      straight(0.75, 0.3, drivetrain));
       
 // Above is the series of command we used for the submitted autonomous run
 
